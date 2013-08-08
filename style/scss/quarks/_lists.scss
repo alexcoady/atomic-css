@@ -1,0 +1,23 @@
+/* 
+*	Quark: Lists
+*	----------------------------------------------------------------
+*	Basic list styles
+*	----------------------------------------------------------------
+*	@author Alex Coady	
+*	@date 08/08/2013
+*/
+
+ul {
+	list-style: inside disc;
+}
+
+ol {
+	list-style: inside decimal;
+}
+
+li {
+	margin-bottom: $spacing-vertical;
+
+	font-size: 1em;
+	line-height: 1.3em;
+}

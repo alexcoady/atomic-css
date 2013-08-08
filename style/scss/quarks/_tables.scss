@@ -1,0 +1,22 @@
+/* 
+*	Quark: Tables
+*	----------------------------------------------------------------
+*	Basic tables styles
+*	----------------------------------------------------------------
+*	@author Alex Coady	
+*	@date 08/08/2013
+*/
+
+table {
+	border: 2px solid black;
+}
+
+th,
+td {
+	font-size: 1em;
+	border: 1px solid black;
+}
+
+th { font-weight: bold; }
+
+td {}

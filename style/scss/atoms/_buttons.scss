@@ -1,0 +1,33 @@
+/* 
+*	Atom: Buttons
+*	----------------------------------------------------------------
+*	Button styles
+*	----------------------------------------------------------------
+*	@author Alex Coady	
+*	@date 08/08/2013
+*/
+
+/*
+*	Default button style
+*	
+*	Example HTML:
+*	
+*	<a href="#" class="button">
+*		<i class="icon"></i>Button text
+*	</a>
+*
+*/
+
+.button {
+	display: block;
+	padding: 5px;
+}
+
+.button .icon {
+	@include inline-block;
+
+	height: 1em;
+	width: 1em;
+	margin-right: 5px;
+	background: red;
+}
