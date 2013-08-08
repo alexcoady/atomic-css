@@ -7,6 +7,15 @@
 *	@date 08/08/2013
 */
 
+/*
+*	Default text style input fields
+*
+*	Example HTML:
+*
+*	<input />
+*	<textarea></textarea>
+*/
+
 input,
 textarea {
 	padding: 5px;
@@ -14,6 +23,15 @@ textarea {
 
 	font-size: 1em;
 }
+
+/*
+*	Default boolean input fields
+*
+*	Example HTML
+*
+*	<input type="checkbox" />
+*	<input type="radio" />
+*/
 
 input[type="checkbox"],
 input[type="radio"] {
